@@ -36,7 +36,7 @@
 
 - isSelected, isHidden 속성 이해하기
 
-[Review]
+### [Review]
 
 **isSelected**
 >- **UIControl**
