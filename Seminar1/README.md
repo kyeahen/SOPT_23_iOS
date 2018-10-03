@@ -50,6 +50,12 @@
 >- 이 값은 수신자의 상태만 반영하고 뷰 계층 구조에서 수신자 조상의 상태를 고려하지 않음. <br>
 > 따라서, 이 속성이 false 이지만 조상이 숨겨져 있으면 수신자 또한 숨겨져 있을 수 있음.
 
+<br>
+
+참조 
+- https://developer.apple.com/documentation/uikit/uicontrol/1618203-isselected
+- https://developer.apple.com/documentation/uikit/uiview/1622585-ishidden
+
 
 
 
