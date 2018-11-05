@@ -223,7 +223,6 @@
                                 </state>
                                 <connections>
                                     <action selector="logoutAction:" destination="SdJ-1E-ONM" eventType="touchUpInside" id="3JY-Sg-2Pm"/>
-                                    <segue destination="SGN-3i-WEO" kind="unwind" identifier="unwindToLogin" unwindAction="unwindToLoginWithSegue:" id="quc-zl-9H3"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="sopt_DoIT" translatesAutoresizingMaskIntoConstraints="NO" id="iZ2-qj-POk">
@@ -287,6 +286,7 @@
                     <connections>
                         <outlet property="idLabel" destination="Czv-Wr-bTE" id="uP6-NI-DaK"/>
                         <outlet property="nameLabel" destination="nB4-Pq-2oR" id="meQ-Ao-qP4"/>
+                        <segue destination="SGN-3i-WEO" kind="unwind" identifier="unwindToLogin" unwindAction="unwindToLoginWithSegue:" id="VXr-oh-nmY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8yu-C2-R5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
